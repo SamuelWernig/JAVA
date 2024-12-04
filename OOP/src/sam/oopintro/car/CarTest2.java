@@ -14,6 +14,13 @@ public class CarTest2 {
 		System.out.println("MyCar Tyre Brand = "+myCar.getTyre());
 		System.out.println("YourCar Tyre Brand = "+yourCar.getTyre());
 
+		System.out.println("------------------------------------------");
+
+		ECar tesla = new ECar("Model3", 57.5);
+
+
+
+
 	}
 
 }
