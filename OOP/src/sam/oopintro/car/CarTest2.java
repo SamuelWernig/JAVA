@@ -11,8 +11,8 @@ public class CarTest2 {
 		myCar.setTyre(uniTyre);
 		yourCar.setTyre(uniTyre);
 		
-		System.out.println("MyCar Tyre Brand = "+myCar.getTyre().getBrand());
-		System.out.println("YourCar Tyre Brand = "+yourCar.getTyre().getBrand());
+		System.out.println("MyCar Tyre Brand = "+myCar.getTyre());
+		System.out.println("YourCar Tyre Brand = "+yourCar.getTyre());
 
 	}
 

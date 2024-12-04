@@ -88,7 +88,11 @@ public class Car {
 	}
 
 	public void setTyre(Tyre tyre) {
+		if (tyre.getCar() !=null) {
+			tyre.getCar().tyre = null;
+		}
 		this.tyre = tyre;
+		this.tyre.setCar(this);
 	}
 		
 }

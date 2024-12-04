@@ -5,6 +5,7 @@ public class Tyre {
 	private String brand;
 	private char type;		// D(iagonal) / R(adial)
 	private String dimension;
+	private Car car;
 	
 	// Constructor
 	
@@ -43,7 +44,13 @@ public class Tyre {
 	
 	public void setDimension(String dimension) {
 		this.dimension = dimension;
-	}	
-	
+	}
+	public Car getCar() {
+		return car;
+
+	}
+	public void setCar(Car car) {
+		this.car = car;
+	}
 
 }
