@@ -1,6 +1,6 @@
 package sam.oopintro.car;
 
-public class Car {
+public abstract class Car {
 	
 	//color, speed, ... are Attributes / Member variablen / Eigenschaften
 	private String color;	

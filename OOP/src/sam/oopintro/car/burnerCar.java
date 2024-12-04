@@ -4,8 +4,8 @@ public class burnerCar  extends Car {
 
     private double fuelCapacity;
 
-    public burnerCar(String name, double fuelCapacity) {
-        super(name);
+    public burnerCar(String color, double fuelCapacity) {
+        super(color);
         this.fuelCapacity = fuelCapacity;
     }
 
@@ -16,4 +16,5 @@ public class burnerCar  extends Car {
     public void setFuelCapacity(double fuelCapacity) {
         this.fuelCapacity = fuelCapacity;
     }
+
 }
