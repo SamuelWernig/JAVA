@@ -1,4 +1,4 @@
-package voelkl.oopintro.car;
+package sam.oopintro.car;
 
 public class Tyre {
 	
