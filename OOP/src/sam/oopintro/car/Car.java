@@ -88,11 +88,16 @@ public abstract class Car {
 	}
 
 	public void setTyre(Tyre tyre) {
-		if (tyre.getCar() !=null) {
+		// Überprüfen, ob der übergebene Reifen bereits mit einem Auto verbunden ist
+		if (tyre.getCar() != null) {
+			// Wenn ja, trennen wir den Reifen vom vorherigen Auto
 			tyre.getCar().tyre = null;
 		}
+
+		// Weisen dem aktuellen Auto den neuen Reifen zu
 		this.tyre = tyre;
+
+		// Stellen sicher, dass der Reifen auch auf dieses Auto verweist
 		this.tyre.setCar(this);
 	}
-		
 }
