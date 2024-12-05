@@ -1,6 +1,6 @@
 package sam.oopintro.car;
 
-public class burnerCar  extends Car {
+public class burnerCar extends Car {
 
     private double fuelCapacity;
 

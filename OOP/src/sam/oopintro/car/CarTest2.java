@@ -9,6 +9,7 @@ public class CarTest2 {
 		
 		Tyre uniTyre = new Tyre("Goodyear", 'R', "240/80");
 		myCar.setTyre(uniTyre);
+		myCar.setTyre(null);
 		yourCar.setTyre(uniTyre);
 		
 		System.out.println("MyCar Tyre Brand = "+myCar.getTyre());
@@ -18,11 +19,9 @@ public class CarTest2 {
 
 		ECar tesla = new ECar("Model3", 57.5);
 
-		burnerCar ford = new burnerCar("rot", 50);
+		burnerCar ford = new burnerCar("red", 50);
+
 		System.out.println(ford.getColor()+" "+ ford.getFuelCapacity());
-
-
-
 	}
 
 }

@@ -9,23 +9,11 @@ public abstract class Car {
 	private Tyre tyre;
 	
 	//Constructors
-	
-	public Car() {
-	}
-	
-	public Car(String name) {
-		this.name = name;
-	}
-	
-	
-	
-	public Car(String color, int speed, String name) {
+
+	public Car(String color) {
 		this.color = color;
-		this.speed = speed;
-		this.name = name;
-		
-		setSpeed(speed);
 	}
+
 
 
 
@@ -89,15 +77,15 @@ public abstract class Car {
 
 	public void setTyre(Tyre tyre) {
 		// Überprüfen, ob der übergebene Reifen bereits mit einem Auto verbunden ist
-		if (tyre.getCar() != null) {
+		if (tyre != null && tyre.getCar() != null) {
 			// Wenn ja, trennen wir den Reifen vom vorherigen Auto
 			tyre.getCar().tyre = null;
 		}
-
 		// Weisen dem aktuellen Auto den neuen Reifen zu
-		this.tyre = tyre;
-
+		this.tyre = tyre;// Verbindung von Car zu tyre
 		// Stellen sicher, dass der Reifen auch auf dieses Auto verweist
-		this.tyre.setCar(this);
+		if (tyre != null) {
+			this.tyre.setCar(this);//Verbindung von tyre zu Car
+		}
 	}
 }
