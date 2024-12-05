@@ -20,8 +20,14 @@ public class CarTest2 {
 		ECar tesla = new ECar("Model3", 57.5);
 
 		burnerCar ford = new burnerCar("red", 50);
+		burnerCar ford2 = new burnerCar("red", 50);
 
 		System.out.println(ford.getColor()+" "+ ford.getFuelCapacity());
+		System.out.println(ford2.getColor()+" "+ ford2.getFuelCapacity());
+		System.out.println(ford.equals(ford2));
+		System.out.println(ford);
+		System.out.println(ford2);
+
 	}
 
 }

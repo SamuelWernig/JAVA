@@ -4,7 +4,7 @@ public abstract class Car {
 	
 	//color, speed, ... are Attributes / Member variablen / Eigenschaften
 	private String color;	
-	private int speed;	// in km/h between 0 to 320
+	private int speed;	// in km/h between 0 and 320
 	private String name;
 	private Tyre tyre;
 	
@@ -13,9 +13,6 @@ public abstract class Car {
 	public Car(String color) {
 		this.color = color;
 	}
-
-
-
 
 	//Methods
 	
