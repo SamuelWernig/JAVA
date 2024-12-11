@@ -93,10 +93,11 @@ public abstract class Car {
 			return true;
 		}
 		//ist obj != null und this und obj von einer Klasse
-		if (obj == null || this.getClass() != obj.getClass() ) {
+		if (obj == null || this.getClass() != obj.getClass()) {
 			return false;
 		}
 
 
-	}
+        return false;
+    }
 }
