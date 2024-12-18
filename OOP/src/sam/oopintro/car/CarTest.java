@@ -4,11 +4,11 @@ public class CarTest {
 
 	public static void main(String[] args) {
 
-		Car myCar = new ECar("Porsche", 57.3);
+		Car myCar = new ECar("Porsche", "red",93);
 		myCar.setColor("red");
 		myCar.setSpeed(100);
 		
-		Car yourCar = new burnerCar("red", 34.5);
+		Car yourCar = new burnerCar("red", "blue", 47);
 
 		
 		System.out.println(myCar.getColor()+" "+myCar.getSpeed());

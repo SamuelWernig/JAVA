@@ -1,5 +1,8 @@
 package sam.oopintro.car;
 
+import javax.naming.Name;
+import javax.xml.namespace.QName;
+
 public abstract class Car {
 	
 	//color, speed, ... are Attributes / Member variablen / Eigenschaften
@@ -10,9 +13,12 @@ public abstract class Car {
 	
 	//Constructors
 
-	public Car(String color) {
+	public Car(String name,String color) {
+		this.name = name;
 		this.color = color;
 	}
+
+
 
 	//Methods
 	
@@ -96,8 +102,14 @@ public abstract class Car {
 		if (obj == null || this.getClass() != obj.getClass()) {
 			return false;
 		}
+		//Um auf Atribute zugreifen
+		Car other = (Car) obj;
 
-
-        return false;
+		if (this.color.equals(other.color) && this.name.equals(other.name)) {
+			return true;
+		}
+		else {
+            return false;
+        }
     }
 }
