@@ -35,6 +35,7 @@ public class CarTest2 {
 		System.out.println(tesla1);
 		System.out.println(tesla2);
 
+
 	}
 
 }

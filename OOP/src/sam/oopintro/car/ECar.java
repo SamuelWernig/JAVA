@@ -38,7 +38,7 @@ public class ECar extends Car{
             return false;
         }
         else {
-            ECar ecar = (ECar)obj;
+            ECar ecar = (ECar) obj;
             if(this.batteryCapacity == ecar.batteryCapacity) {
                 return true;
             }

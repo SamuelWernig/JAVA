@@ -94,10 +94,11 @@ public abstract class Car {
 
 	@Override
 	public boolean equals(Object obj) {
-		//sind es zwei Objekte oder ines
+		//sind es zwei Objekte oder eines
 		if (this == obj) {
 			return true;
 		}
+
 		//ist obj != null und this und obj von einer Klasse
 		if (obj == null || this.getClass() != obj.getClass()) {
 			return false;
