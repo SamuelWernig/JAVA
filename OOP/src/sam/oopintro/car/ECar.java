@@ -1,13 +1,41 @@
 package sam.oopintro.car;
 
-public class ECar extends Car{
+public class ECar extends Car {
 
-    private  double batteryCapacity;
-    public ECar(String name,String color, double batteryCapacity) {
-        super(name,color);
+    private double batteryCapacity;
+
+    // Constructors
+    public ECar(String name, String color, double batteryCapacity) {
+        super(name, color);
         this.batteryCapacity = batteryCapacity;
     }
 
+    public ECar(String name, String color, int speed, double batteryCapacity) {
+        super(name, color, speed);
+        this.batteryCapacity = batteryCapacity;
+    }
+
+    // methods
+
+    @Override
+    public boolean equals(Object obj) {
+        // 1 Objekt oder 2? Referenzvergleich
+        if (this == obj)
+            return true;
+
+        // this und obj gleiche Klasse?
+        if (obj == null || this.getClass() != obj.getClass())
+            return false;
+
+        ECar other = (ECar) obj; // um auf Attribute zugreifen zu können
+
+        if (this.getColor().equals(other.getColor())
+                && this.getName().equals(other.getName())
+                && this.batteryCapacity==other.batteryCapacity)
+            return true;
+        else
+            return false;
+    }
 
     public double getBatteryCapacity() {
         return batteryCapacity;
@@ -17,34 +45,16 @@ public class ECar extends Car{
         this.batteryCapacity = batteryCapacity;
     }
 
-    /*@Override
-    public boolean equals(Object obj){
-        if(this == obj){
-            return true;
-        }
-        if(obj == null || obj.getClass() != this.getClass()){
-            return false;
-        }
-        ECar car = (ECar)obj;
-        if (this.getColor().equals(car.getColor()) && this.getName().equals(car.getName()) && this.getBatteryCapacity() == car.getBatteryCapacity()){
-            return true;
-        }
-        else {
-            return false;
-        }
-    }*/
-    public boolean equals (Object obj) {
-        if(!super.equals(obj)){
-            return false;
-        }
-        else {
-            ECar ecar = (ECar) obj;
-            if(this.batteryCapacity == ecar.batteryCapacity) {
-                return true;
-            }
-            else {
-                return false;
-            }
-        }
-    }
+//	@Override
+//	public boolean equals(Object obj) {
+//		if (!super.equals(obj))
+//			return false;
+//		else {
+//			ECar other = (ECar) obj;
+//			if (this.batteryCapacity==other.batteryCapacity)
+//				return true;
+//			else
+//				return false;
+//		}
+//	}
 }

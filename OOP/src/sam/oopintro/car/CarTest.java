@@ -8,7 +8,7 @@ public class CarTest {
 		myCar.setColor("red");
 		myCar.setSpeed(100);
 		
-		Car yourCar = new burnerCar("red", "blue", 47);
+		Car yourCar = new DirtyCar("red", "blue", 47);
 
 		
 		System.out.println(myCar.getColor()+" "+myCar.getSpeed());
