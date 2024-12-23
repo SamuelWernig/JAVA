@@ -3,11 +3,12 @@ package at.htlle.sam.Weihnachtsuebung;
 public class Person {
     private String name;
     private Geschenk[] geschenke;
-    private int counter = 0;
+    private int counter;
 
     public Person(String name) {
         this.name = name;
         this.geschenke = new Geschenk[Constants.MAX_GESCHENKE];
+        this.counter = 0;
     }
 
 
