@@ -27,7 +27,6 @@ public class Library {
         }
         for (int i = 0; i < itemCount; i++) {
             if (items[i] == item) {
-
                 items[i] = items[itemCount - 1];
                 items[itemCount - 1] = null;
                 itemCount--;
