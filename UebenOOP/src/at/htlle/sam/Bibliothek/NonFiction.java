@@ -5,6 +5,7 @@ public class NonFiction extends Item {
 
     public NonFiction(String title, String author, int year, String topic) {
         super(title, author, year);
+        this.topic = topic;
 
     }
 
