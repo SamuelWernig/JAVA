@@ -22,20 +22,21 @@ public class Library {
         }
     }
     public boolean removeItem(Item item) {
-        if (itemCount >= Constants.MAX_LIBRARY_SIZE) {
+        if (itemCount <= 0) {
             return false;
-        }else{
-            for(int i = 0; i < itemCount; i++){
-                if(items[i] == item){
-                    items[i] = items[itemCount];
-                    items[itemCount] = null;
-
-                }
-            }
-            itemCount--;
-            return true;
         }
+        for (int i = 0; i < itemCount; i++) {
+            if (items[i] == item) {
+
+                items[i] = items[itemCount - 1];
+                items[itemCount - 1] = null;
+                itemCount--;
+                return true;
+            }
+        }
+        return false;
     }
+
 
     public String getItems(){
         for(int i = 0; i < itemCount; i++){
