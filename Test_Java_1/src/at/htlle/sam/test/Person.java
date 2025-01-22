@@ -27,7 +27,7 @@ public class Person {
     }
     public void zeigeTiere(){
         for(int i=0; i<tiereCount; i++){
-            System.out.println(tiere[i]);       //Es wird Automatisch die toString Methode verwendet
+            System.out.println(tiere[i]);    //Es wird Automatisch die toString Methode verwendet
         }
     }
 
