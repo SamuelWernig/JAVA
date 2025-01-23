@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Colletions/Colletions.iml" filepath="$PROJECT_DIR$/Colletions/Colletions.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JAVA.iml" filepath="$PROJECT_DIR$/.idea/JAVA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Learning_OOP/Learning_OOP.iml" filepath="$PROJECT_DIR$/Learning_OOP/Learning_OOP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/OOP/OOP.iml" filepath="$PROJECT_DIR$/OOP/OOP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PLUE01_CashRegister/PLUE01_CashRegister.iml" filepath="$PROJECT_DIR$/PLUE01_CashRegister/PLUE01_CashRegister.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Test_Java_1/Test_Java_1.iml" filepath="$PROJECT_DIR$/Test_Java_1/Test_Java_1.iml" />
-      <module fileurl="file://$USER_HOME$/Downloads/TextBorderBoxing_Exam/TextBorderBoxing_Exam.iml" filepath="$USER_HOME$/Downloads/TextBorderBoxing_Exam/TextBorderBoxing_Exam.iml" />
-      <module fileurl="file://$PROJECT_DIR$/UebenOOP/UebenOOP.iml" filepath="$PROJECT_DIR$/UebenOOP/UebenOOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP_202425/Learning_OOP/Learning_OOP.iml" filepath="$PROJECT_DIR$/OOP_202425/Learning_OOP/Learning_OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP_202425/OOP/OOP.iml" filepath="$PROJECT_DIR$/OOP_202425/OOP/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP_202425/PLUE01_CashRegister/PLUE01_CashRegister.iml" filepath="$PROJECT_DIR$/OOP_202425/PLUE01_CashRegister/PLUE01_CashRegister.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP_202425/Test_Java_1/Test_Java_1.iml" filepath="$PROJECT_DIR$/OOP_202425/Test_Java_1/Test_Java_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP_202425/UebenOOP/UebenOOP.iml" filepath="$PROJECT_DIR$/OOP_202425/UebenOOP/UebenOOP.iml" />
     </modules>
   </component>
 </project>
