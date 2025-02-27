@@ -8,8 +8,7 @@ public class Tier {
     }
 
     public void gibLaut(){
-        String text = "Laut";
-        System.out.println(text);
+        System.out.println("Ein Geräusch");
     }
 
 }
