@@ -7,8 +7,6 @@ public class NotenVerwaltung {
         this.noten = noten;
 
     }
-
-
     public double berechneDurchschnitt(){
         double x = 0;
         double count = 0;
