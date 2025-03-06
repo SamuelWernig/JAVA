@@ -6,7 +6,7 @@ public class Main {
         Tier[] tiere = {
 
                 new Hund("Bello"),
-                new Hund("Rex"),
+                new Tier("Rex"),
         };
 
 
