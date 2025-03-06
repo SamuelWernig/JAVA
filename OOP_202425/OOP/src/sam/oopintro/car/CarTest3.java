@@ -11,6 +11,11 @@ public class CarTest3 {
         System.out.println(ecar1);
         System.out.println(ecar2);
 
+        System.out.println(ecar1.hashCode());
+        System.out.println(ecar2.hashCode());
+
+        System.out.println(ecar1.);
+
     }
 
 }

@@ -1,6 +1,9 @@
 package at.htlle.sam.Bibliothek;
 
-public abstract class Item {
+import java.io.Serializable;
+import java.util.Objects;
+
+public abstract class Item implements Comparable<Item> {
     private String title;
     private String author;
     private int year;
@@ -13,6 +16,22 @@ public abstract class Item {
 
     public abstract String getDescription();
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Item item = (Item) o;
+        return this.getTitle() == item.getTitle() && this.getAuthor() == item.getAuthor() && this.getYear() == item.getYear();
+
+    }
+    @Override
+    public int hashCode() {
+        return Objects.hash(title,author,year);
+    }
+    @Override
+    public int compareTo(Item o) {
+        return this.title.compareTo(o.getTitle());
+    }
 
 
     public String getTitle() {
@@ -38,4 +57,5 @@ public abstract class Item {
     public void setYear(int year) {
         this.year = year;
     }
+
 }

@@ -5,6 +5,7 @@ public class BuechereiTest {
 
         Novel novel1 = new Novel("Alles wird gut", "Thomas Evenue", 2000, "horror");
         Novel novel2 = new Novel("Besser geht es garnicht", "Jimmy Hank", 1980, "leid");
+        Novel novel3 = new Novel("Besser geht es garnicht", "Jimmy Hank", 1980, "leid");
         NonFiction nonFiction1 = new NonFiction("Die Wissenschaft", "Thomas Even", 2003, "Physik");
         NonFiction nonFiction2 = new NonFiction("Ein Leben des Menschen", "Holly Molly", 1928, "Medizin");
         NonFiction nonFiction3 = new NonFiction("Ein Leben des Menschen", "Holly Molly", 1928, "Medizin");
@@ -33,7 +34,15 @@ public class BuechereiTest {
         System.out.println(nonFiction1.getDescription());
         System.out.println("-----------------------------------------");
         System.out.println(nonFiction2.getDescription());*/
-
+        System.out.println(novel2.equals(novel1));
+        System.out.println(novel2.hashCode());
+        System.out.println(novel1.hashCode());
+        System.out.println("-----------------------------------------");
+        System.out.println(novel3.equals(novel2));
+        System.out.println(novel2.hashCode());
+        System.out.println(novel3.hashCode());
+        System.out.println("-----------------------------------------");
+        System.out.println(novel1.compareTo(novel2));
 
 
 

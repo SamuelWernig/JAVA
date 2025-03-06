@@ -1,6 +1,9 @@
 package sam.oopintro.car;
 
-public class Car {
+import java.io.Serializable;
+import java.util.Objects;
+
+public class Car implements Comparable<Car> {
 
 	private String name;
 	private String color;
@@ -42,6 +45,15 @@ public class Car {
 		else
 			return false;
 
+	}
+	@Override
+	public int hashCode() {
+		return Objects.hash(name, color, speed, tyre);
+	}
+
+	@Override
+	public int compareTo(Car o) {
+		return this.name.compareTo(o.getName());
 	}
 
 	public void accelerate(int increment) {
