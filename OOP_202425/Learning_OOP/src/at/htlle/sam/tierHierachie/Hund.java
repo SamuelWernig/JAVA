@@ -7,6 +7,6 @@ public class Hund extends Tier {
 
     @Override
     public void gibLaut() {
-        System.out.println(name +" bellt: Wuff Wuff");
+        System.out.println(getName() +" bellt: Wuff Wuff");
     }
 }
