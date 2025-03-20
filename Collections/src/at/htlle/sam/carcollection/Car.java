@@ -1,25 +1,38 @@
 package at.htlle.sam.carcollection;
 
-public class Car {
-    private String Marke;
-    private String Modell;
+public abstract class Car implements Comparable<Car>{
+    private String marke;
+    private String modell;
 
+	public Car(String marke, String modell){
+		this.marke = marke;
+		this.modell = modell;
+	}
 
+    @Override
+    public int compareTo(Car o) {
+        return this.modell.compareTo(o.modell);
+    }
+
+    @Override
+    public String toString(){
+        return modell;
+    }
 
 
     public String getMarke() {
-        return Marke;
+        return marke;
     }
 
     public void setMarke(String marke) {
-        Marke = marke;
+        marke = marke;
     }
 
     public String getModell() {
-        return Modell;
+        return modell;
     }
 
     public void setModell(String modell) {
-        Modell = modell;
+        modell = modell;
     }
 }
