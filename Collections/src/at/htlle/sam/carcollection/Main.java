@@ -1,19 +1,26 @@
 package at.htlle.sam.carcollection;
 
-import java.util.*;
-
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.TreeSet;
 
 public class Main {
     public static void main(String[] args){
-		ArrayList<Car> arrayList = new ArrayList();
-        LinkedList<Car> linkedList = new LinkedList();
-		HashSet<Car> hashSet = new HashSet();
-		TreeSet<Car> treeSet = new TreeSet();
+		ArrayList<Car> arrayList = new ArrayList<>();
+        LinkedList<Car> linkedList = new LinkedList<>();
+		HashSet<Car> hashSet = new HashSet<>();
+		TreeSet<Car> treeSet = new TreeSet<>();
 
 		ECar ecar1 = new ECar("Tesla", "VD", 32);
 		ECar ecar2 = new ECar("VW", "XDied", 49);
 		BurnCar burnCar1 = new BurnCar("Audi", "DVD", 54);
-		BurnCar burnCar2 = new BurnCar("VW", "M4", 50);
+		BurnCar burnCar2 = new BurnCar("VW", "M4", 50) {
+			@Override
+			public int compareTo(Car car){
+				return this.getMarke().compareTo(car.getMarke());
+			}
+		};
 
 		arrayList.add(ecar1);
 		arrayList.add(ecar2);
