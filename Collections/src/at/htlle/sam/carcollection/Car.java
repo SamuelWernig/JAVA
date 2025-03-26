@@ -23,7 +23,7 @@ public abstract class Car implements Comparable<Car>{
         if(this == o){
             return true;
         }
-        if(o != null && o.getClass() != this.getClass()){
+        if(o == null && o.getClass() != this.getClass()){
             return false;
         }
         Car car = (Car) o;
