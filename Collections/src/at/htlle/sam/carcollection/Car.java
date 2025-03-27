@@ -23,7 +23,7 @@ public abstract class Car implements Comparable<Car>{
         if(this == o){
             return true;
         }
-        if(o == null && o.getClass() != this.getClass()){
+        if (o == null || o.getClass() != this.getClass()) {
             return false;
         }
         Car car = (Car) o;
@@ -39,7 +39,7 @@ public abstract class Car implements Comparable<Car>{
     }
 
     public void setMarke(String marke) {
-        marke = marke;
+        this.marke = marke;
     }
 
     public String getModell() {
@@ -47,6 +47,6 @@ public abstract class Car implements Comparable<Car>{
     }
 
     public void setModell(String modell) {
-        modell = modell;
+        this.modell = modell;
     }
 }

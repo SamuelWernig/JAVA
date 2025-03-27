@@ -1,9 +1,6 @@
 package at.htlle.sam.carcollection;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.TreeSet;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args){
@@ -13,32 +10,34 @@ public class Main {
 		TreeSet<Car> treeSet = new TreeSet<>();
 
 		ECar ecar1 = new ECar("Tesla", "VD", 32);
-		ECar ecar2 = new ECar("VW", "XDied", 49);
+		ECar ecar2 = new ECar("VW", "XDIED", 49);
 		BurnCar burnCar1 = new BurnCar("Audi", "DVD", 54);
-		BurnCar burnCar2 = new BurnCar("VW", "M4", 50) {
+		BurnCar burnCar2 = new BurnCar("VW", "MVIER", 50); /*{
 			@Override
 			public int compareTo(Car car){
 				return this.getMarke().compareTo(car.getMarke());
 			}
-		};
+		};*/
 
 		arrayList.add(ecar1);
 		arrayList.add(ecar2);
 		arrayList.add(burnCar1);
 		arrayList.add(burnCar2);
-		arrayList.add(ecar1);
+		/*arrayList.add(ecar1);
 		arrayList.add(ecar2);
 		arrayList.add(burnCar1);
-		arrayList.add(burnCar2);
+		arrayList.add(burnCar2);*/
+
 
 		linkedList.add(ecar1);
 		linkedList.add(ecar2);
 		linkedList.add(burnCar1);
 		linkedList.add(burnCar2);
-		linkedList.add(ecar1);
+		/*linkedList.add(ecar1);
 		linkedList.add(ecar2);
 		linkedList.add(burnCar1);
-		linkedList.add(burnCar2);
+		linkedList.add(burnCar2);*/
+
 
 
 		//In Sets sind keine duplikate
@@ -67,6 +66,13 @@ public class Main {
 		System.out.println(linkedList);
 		System.out.println(hashSet);
 		System.out.println(treeSet);
+
+		System.out.println("-------------------------------------");
+		Collections.sort(arrayList);
+		System.out.println(arrayList);
+		System.out.println("-------------------------------------");
+		Collections.sort(arrayList, new SortDowntoUp());
+		System.out.println(arrayList);
 		
 	}
 

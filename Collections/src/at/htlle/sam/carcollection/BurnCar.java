@@ -11,7 +11,7 @@ public class BurnCar extends Car{
 	
 	
 	public void setFuel(double fuelCappasity){
-		fuelCappasity = fuelCappasity;
+		this.fuelCappasity = fuelCappasity;
 	}
 	public double getFuelCappasity(){
 		return fuelCappasity;

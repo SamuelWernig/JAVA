@@ -10,7 +10,7 @@ public class ECar extends Car{
 
 	
 	public void setBatteryCappasity(double batteryCappasity){
-		batteryCappasity = batteryCappasity;
+		this.batteryCappasity = batteryCappasity;
 	}
 	public double getBatteryCappasity(){
 		return batteryCappasity;
