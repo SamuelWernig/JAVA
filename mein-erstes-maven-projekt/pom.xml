@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>at.htlle.sam</groupId>
+    <groupId>at.htlle.sam.maven</groupId>
     <artifactId>mein-erstes-maven-projekt</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -22,6 +22,7 @@
         </dependency>
     </dependencies>
 
+
     <build>
         <plugins>
             <!-- exec-maven-plugin Konfiguration -->
@@ -36,7 +37,7 @@
                         </goals>
                         <configuration>
                             <!-- Hauptklasse, die beim Aufruf von mvn exec:java ausgeführt wird -->
-                            <mainClass>at.htlle.sam.Main</mainClass>
+                            <mainClass>at.htlle.sam.maven.HelloGuava</mainClass>
                         </configuration>
                     </execution>
                 </executions>
