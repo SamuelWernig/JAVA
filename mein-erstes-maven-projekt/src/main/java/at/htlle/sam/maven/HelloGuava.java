@@ -6,6 +6,10 @@ public class HelloGuava {
     public static void main(String[] args){
         // Erstelle eine neue ArrayList mit Guava
         var list = Lists.newArrayList();
-        System.out.println("Neue Liste: " + list);
+        list.add("Samuel");
+        list.add("Jonas");
+        list.add("Bob");
+        list.add("Michael");
+        System.out.println(list);
     }
 }

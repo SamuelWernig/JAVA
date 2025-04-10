@@ -36,7 +36,6 @@
                             <goal>java</goal>
                         </goals>
                         <configuration>
-                            <!-- Hauptklasse, die beim Aufruf von mvn exec:java ausgeführt wird -->
                             <mainClass>at.htlle.sam.maven.HelloGuava</mainClass>
                         </configuration>
                     </execution>
