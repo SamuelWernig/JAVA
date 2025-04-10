@@ -20,8 +20,15 @@
             <artifactId>guava</artifactId>
             <version>33.4.7-jre</version>
         </dependency>
-    </dependencies>
 
+        <!-- JUnit 4 für Tests -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope> <!-- Test-Scope anstelle von Compile-Scope -->
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
@@ -35,5 +42,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
