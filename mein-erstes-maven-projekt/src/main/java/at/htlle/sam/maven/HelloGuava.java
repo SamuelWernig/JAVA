@@ -19,5 +19,6 @@ public class HelloGuava {
         // Ausgabe der sortierten Liste
         System.out.println("Sortierte Liste:");
         System.out.println(list);
+
     }
 }
