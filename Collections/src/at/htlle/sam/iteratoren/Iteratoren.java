@@ -82,8 +82,8 @@ public class Iteratoren {
         System.out.println(stringMap);
         Iterator<Map.Entry<Integer, String>> iter3 = stringMap.entrySet().iterator();
         System.out.println();
-        for(Map.Entry<Integer, String> entry : mapAsSet) {
-            if(entry.getKey() == 1){
+        for(Map.Entry<Integer, String> entry : stringMap.entrySet()) {
+            if(entry.getValue() == "Samuel") {
                 System.out.println(entry.getValue());
             }
         }
