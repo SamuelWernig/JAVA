@@ -8,19 +8,19 @@ public abstract class Tier implements Comparable<Tier>{
 	}
 	
 	@Override
-	public boolean equals(Object obj) {
-		if(this == obj){
+	public boolean equals(Object obj){
+		if (this == obj){
 			return true;
 		}
-		if(obj == null || obj.getClass() != this.getClass()){
+		if (obj == null || obj.getClass() != this.getClass()){
 			return false;
 		}
 		Tier t = (Tier) obj;
 		if(this.getName().equals(t.getName())){
 			return true;
 		}
-        return false;
-    }
+		return false;
+	}
 	
 	@Override
 	public int hashCode(){
@@ -28,9 +28,9 @@ public abstract class Tier implements Comparable<Tier>{
 	}
 	
 	@Override
-	public int compareTo(Tier other) {
-        return this.name.compareTo(other.name);
-    }
+	public int compareTo(Tier t){
+		return this.compareTo(t);
+	}
 
 	public abstract void geraeuschMachen();
 	
