@@ -96,5 +96,7 @@ public class Iteratoren {
             }
         }
         System.out.println(stringMap.size());
+        Set<String> valueSet = new HashSet<>(stringMap.values());
+        System.out.println(valueSet);
     }
 }

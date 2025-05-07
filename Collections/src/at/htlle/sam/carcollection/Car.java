@@ -16,7 +16,7 @@ public abstract class Car implements Comparable<Car>{
 
     @Override
     public String toString(){
-        return modell;
+        return this.getModell();
     }
     @Override
     public boolean equals(Object o){
