@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="at.htlle.oop.AnimalAdministratorTest" time="0.039" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="at.htlle.oop.AnimalAdministratorTest" time="0.06" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AT"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\samue\AppData\Local\Temp\surefire17981783120352972771\surefirebooter-20250909091229288_3.jar C:\Users\samue\AppData\Local\Temp\surefire17981783120352972771 2025-09-09T09-12-29_200-jvmRun1 surefire-20250909091229288_1tmp surefire_0-20250909091229288_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\samue\AppData\Local\Temp\surefire15373265037255164397\surefirebooter-20250911133234947_3.jar C:\Users\samue\AppData\Local\Temp\surefire15373265037255164397 2025-09-11T13-32-34_862-jvmRun1 surefire-20250911133234947_1tmp surefire_0-20250911133234947_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\samue\Desktop\JAVA_PROJECTS\JAVA\JUnit-Wernig\target\test-classes;C:\Users\samue\Desktop\JAVA_PROJECTS\JAVA\JUnit-Wernig\target\classes;C:\Users\samue\.m2\repository\org\junit\jupiter\junit-jupiter\6.0.0-RC2\junit-jupiter-6.0.0-RC2.jar;C:\Users\samue\.m2\repository\org\junit\jupiter\junit-jupiter-api\6.0.0-RC2\junit-jupiter-api-6.0.0-RC2.jar;C:\Users\samue\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\samue\.m2\repository\org\junit\platform\junit-platform-commons\6.0.0-RC2\junit-platform-commons-6.0.0-RC2.jar;C:\Users\samue\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\samue\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\samue\.m2\repository\org\junit\jupiter\junit-jupiter-params\6.0.0-RC2\junit-jupiter-params-6.0.0-RC2.jar;C:\Users\samue\.m2\repository\org\junit\jupiter\junit-jupiter-engine\6.0.0-RC2\junit-jupiter-engine-6.0.0-RC2.jar;C:\Users\samue\.m2\repository\org\junit\platform\junit-platform-engine\6.0.0-RC2\junit-platform-engine-6.0.0-RC2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\samue\AppData\Local\Temp\surefire17981783120352972771\surefirebooter-20250909091229288_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\samue\AppData\Local\Temp\surefire15373265037255164397\surefirebooter-20250911133234947_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24+36-3646"/>
@@ -58,5 +58,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="testSound" classname="at.htlle.oop.AnimalAdministratorTest" time="0.025"/>
+  <testcase name="testSoundCat" classname="at.htlle.oop.AnimalAdministratorTest" time="0.026"/>
+  <testcase name="testSoundDog" classname="at.htlle.oop.AnimalAdministratorTest" time="0.007"/>
+  <testcase name="testAnimalAdministartion" classname="at.htlle.oop.AnimalAdministratorTest" time="0.006">
+    <system-out><![CDATA[Yoda: Wuff!
+Lea: Miau!
+]]></system-out>
+  </testcase>
+  <testcase name="testGetAllSounds" classname="at.htlle.oop.AnimalAdministratorTest" time="0.001"/>
+  <testcase name="testAddAnimalandGetNumberOfAnimals" classname="at.htlle.oop.AnimalAdministratorTest" time="0.0"/>
 </testsuite>
