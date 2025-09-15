@@ -8,20 +8,10 @@ public class Aufgabe2 {
         List<String> cities = new ArrayList<>(List.of("Wien", "Berlin", "Zürich", "Amsterdam"));
 
         // TODO: Ersetzen Sie den anonymen Comparator durch einen Lambda-Ausdruck
-        cities.sort(new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                return o1.compareTo(o2);
-            }
-        });
+        cities.sort((a, b)-> a.compareTo(b));
 
         // TODO: Sortieren Sie die Liste zusätzlich nach der Länge der Städtenamen mit einem Lambda
-        cities.sort(new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                return Integer.compare(o1.length(), o2.length());
-            }
-        });
+        cities.sort((a, b)-> Integer.compare(a.length(), b.length()));
 
         System.out.println(cities);
     }

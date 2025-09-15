@@ -9,11 +9,6 @@ public class Aufgabe1 {
         List<String> namen = List.of("Anna", "Bernd", "Clara");
 
         // TODO: Ersetzen Sie den anonymen Consumer durch einen Lambda-Ausdruck
-        namen.forEach(new Consumer<String>() {
-            @Override
-            public void accept(String s) {
-                System.out.println(s.toUpperCase());
-            }
-        });
+        namen.forEach( s -> System.out.println(s.toUpperCase()));
     }
 }

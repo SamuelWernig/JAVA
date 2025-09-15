@@ -10,12 +10,7 @@ public class Aufgabe4 {
         List<String> animals = List.of("Hund", "Katze", "Maus");
 
         // TODO: Ersetzen Sie die Function durch einen Lambda-Ausdruck
-        Function<String, Integer> length = new Function<String, Integer>() {
-            @Override
-            public Integer apply(String s) {
-                return s.length();
-            }
-        };
+        Function<String, Integer> length = s -> s.length();
 
         List<Integer> lenghts = animals.stream()
                                     .map(length)

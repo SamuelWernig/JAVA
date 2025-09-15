@@ -9,12 +9,8 @@ public class Aufgabe3 {
         List<Integer> numbers = List.of(3, 7, 10, 14, 21, 28);
 
         // TODO: Ersetzen Sie den Predicate durch einen Lambda-Ausdruck
-        Predicate<Integer> divideableSeven = new Predicate<Integer>() {
-            @Override
-            public boolean test(Integer integer) {
-                return integer % 7 == 0;
-            }
-        };
+        Predicate<Integer> divideableSeven = integer -> integer % 7 == 0;
+
 
         for (Integer number : numbers) {
             if (divideableSeven.test(number)) {
