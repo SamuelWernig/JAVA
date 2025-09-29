@@ -1,0 +1,11 @@
+BufferedReader r = new BufferedReader(new FileReader("fle.txt"));
+try (r) {
+
+}
+funktioniert nicht, weil in Java das try-with-resources so nicht erlaubt ist
+
+richtig :
+
+try (BufferedReader r = new BufferedReader(new FileReader("fle.txt"))) {
+
+}
