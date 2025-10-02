@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b3c61d2-b307-41ac-bb44-e115012e1644" name="Changes" comment="" />
+    <list default="true" id="5b3c61d2-b307-41ac-bb44-e115012e1644" name="Changes" comment="files updated">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,21 +15,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SamuelWernig"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SamuelWernig&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SamuelWernig/JAVA.git",
-    "accountId": "c88c6002-7ce5-4463-b955-eedcdc2aa448"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SamuelWernig/JAVA.git&quot;,
+    &quot;accountId&quot;: &quot;c88c6002-7ce5-4463-b955-eedcdc2aa448&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="33QDrSGP6tfFSv9x6J68R3X2utR" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -40,6 +42,11 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/samue/Desktop/JAVA_PROJECTS/JAVA/Uebung1_Wernig_CSV/src/main/java/at/htlle/sam/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
@@ -61,20 +68,39 @@
       <updated>1759240601269</updated>
       <workItem from="1759240603110" duration="144000" />
     </task>
+    <task id="LOCAL-00001" summary="New files">
+      <option name="closed" value="true" />
+      <created>1759404722813</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1759404722813</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New files">
+      <option name="closed" value="true" />
+      <created>1759404726939</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759404726939</updated>
+    </task>
+    <task id="LOCAL-00003" summary="files updated">
+      <option name="closed" value="true" />
+      <created>1759405011672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759405011672</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/at/htlle/sam/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New files" />
+    <MESSAGE value="files updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="files updated" />
   </component>
 </project>
