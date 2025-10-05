@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="20f4c029-8f91-4983-a197-284933d53e2f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Uebung1_Wernig_CSV/src/main/java/at/htlle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uebung1_Wernig_CSV/src/main/java/at/htlle/confg/AppConfg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uebung1_Wernig_CSV/src/main/java/at/htlle/domain/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uebung1_Wernig_CSV/src/main/java/at/htlle/domain/Enrollment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uebung1_Wernig_CSV/src/main/java/at/htlle/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uebung1_Wernig_CSV/src/main/java/at/htlle/persistence/CourseCsvRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uebung1_Wernig_CSV/src/main/java/at/htlle/persistence/EnrollmentCsvRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uebung1_Wernig_CSV/src/main/java/at/htlle/persistence/StudentCsvRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uebung1_Wernig_CSV/src/main/java/at/htlle/service/SchoolService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uebung1_Wernig_CSV/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uebung1_Wernig_CSV/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uebung1_Wernig_CSV/src/test/java/at/htlle/persistence/StudentCsvRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Uebung1_Wernig_CSV/src/test/java/at/htlle/service/SchoolServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htlle/sam/Ueben1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logger/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamuTemp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamuTemp/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamuTemp/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamuTemp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamuTemp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamuTemp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SamuTemp/src/main/java/at/htlle/sam/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Uebung1_Wernig_CSV/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Uebung1_Wernig_CSV/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SamuelWernig&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SamuelWernig/JAVA.git&quot;,
+    &quot;accountId&quot;: &quot;c88c6002-7ce5-4463-b955-eedcdc2aa448&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="33eXgYQjZCgUNzvNDkSRyNZBBoJ" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Ueben1.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/samue/Desktop/JAVA_PROJECTS/JAVA/UebungTest1/src/main/java/at/htlle/sam/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\samue\Desktop\JAVA_PROJECTS\JAVA\UebungTest1" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20f4c029-8f91-4983-a197-284933d53e2f" name="Changes" comment="" />
+      <created>1759678623276</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759678623276</updated>
+      <workItem from="1759678624487" duration="6000" />
+      <workItem from="1759678637279" duration="90000" />
+      <workItem from="1759678743402" duration="61000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
