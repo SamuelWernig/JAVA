@@ -5,21 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b3c61d2-b307-41ac-bb44-e115012e1644" name="Changes" comment="files updated">
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htlle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htlle/confg/AppConfg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htlle/domain/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htlle/domain/Enrollment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htlle/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htlle/persistence/CourseCsvRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htlle/persistence/EnrollmentCsvRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htlle/persistence/StudentCsvRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htlle/service/SchoolService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/at/htlle/persistence/StudentCsvRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/at/htlle/service/SchoolServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Logger/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SamuTemplate/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UebungTest1/ausgabe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UebungTest1/daten.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UebungTest1/src/main/java/at/htlle/sam/Ueben2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UebungTest1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UebungTest1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +104,7 @@
       <workItem from="1759678632020" duration="4000" />
       <workItem from="1759678729229" duration="13000" />
       <workItem from="1759678805717" duration="14000" />
+      <workItem from="1759682037526" duration="59000" />
     </task>
     <task id="LOCAL-00001" summary="New files">
       <option name="closed" value="true" />
