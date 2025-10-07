@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20f4c029-8f91-4983-a197-284933d53e2f" name="Changes" comment="New files">
-      <change afterPath="$PROJECT_DIR$/ausgabe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daten.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/personen.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htlle/sam/Ueben2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Uebung1_Wernig_CSV/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Uebung1_Wernig_CSV/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htlle/sam/DebuggerUebung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htlle/sam/ShowFileClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htlle/sam/ShowPathClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,28 +51,32 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Ueben1.executor": "Run",
-    "Application.Ueben2.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/samue/Desktop/JAVA_PROJECTS/JAVA/UebungTest1/src/main/java/at/htlle/sam/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DebuggerUebung.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShowFileClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShowPathClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ueben1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ueben2.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/samue/Desktop/JAVA_PROJECTS/JAVA/UebungTest1/src/main/java/at/htlle/sam/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\samue\Desktop\JAVA_PROJECTS\JAVA\UebungTest1\src\main\resources" />
       <recent name="C:\Users\samue\Desktop\JAVA_PROJECTS\JAVA\UebungTest1" />
     </key>
   </component>
@@ -96,6 +99,12 @@
       <workItem from="1759678637279" duration="90000" />
       <workItem from="1759678743402" duration="61000" />
       <workItem from="1759682098266" duration="890000" />
+      <workItem from="1759731481036" duration="4824000" />
+      <workItem from="1759743521566" duration="603000" />
+      <workItem from="1759744147058" duration="10000" />
+      <workItem from="1759744162480" duration="4000" />
+      <workItem from="1759744176975" duration="11000" />
+      <workItem from="1759744216547" duration="2035000" />
     </task>
     <task id="LOCAL-00001" summary="New files">
       <option name="closed" value="true" />
@@ -105,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759680990801</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New files">
+      <option name="closed" value="true" />
+      <created>1759731525420</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759731525420</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
