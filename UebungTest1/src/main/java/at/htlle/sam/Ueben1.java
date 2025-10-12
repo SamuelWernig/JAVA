@@ -119,7 +119,15 @@ public class Ueben1 {
             }
         };
         r.run();
+        System.out.println();
 
+        List<Integer> intListe = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 9);
+        System.out.println(intListe);
+        List<Integer> intListFinal = intListe.stream()
+                .distinct()
+                //.limit(3)
+                .toList();
+        System.out.println(intListFinal);
 
     }
 }

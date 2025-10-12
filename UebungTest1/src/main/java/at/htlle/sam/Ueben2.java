@@ -8,6 +8,7 @@ import static java.nio.file.StandardOpenOption.*;
 
 import java.nio.file.StandardCopyOption;
 import java.util.*;
+import java.util.function.Consumer;
 import java.util.stream.*;
 
 public class Ueben2 {
@@ -111,9 +112,34 @@ public class Ueben2 {
                     .filter(line -> line.equals("Zeile 2"))
                     .toList();
             System.out.println(dataStringList);
-        }catch (IOException e){
+        }catch (IOException e) {
             e.printStackTrace();
         }
 
+        System.out.println();
+        // Lambda-Ausdruck für Addition
+        Rechner add = (a, b) -> a + b;
+        System.out.println("5 + 3 = " + add.berechne(5, 3));
+        // Lambda-Ausdruck für Dividieren
+        Rechner div = (a, b) -> a / b;
+        System.out.println("5 / 3 = " + div.berechne(5, 3));
+        // Lambda-Ausdruck für Multiplikation
+        Rechner mul = (a, b) -> a * b;
+        System.out.println("5 * 3 = " + mul.berechne(5, 3));
+        // Lambda-Ausdruck für Subtraktion
+        Rechner sub = (a, b) -> a - b;
+        System.out.println("5 - 3 = " + sub.berechne(5, 3));
+
+        try(BufferedWriter bw = new BufferedWriter(new FileWriter("ausgabe.txt"))){
+            bw.write("Zeile 1");
+            bw.newLine();
+            bw.write("Zeile 2");
+            bw.newLine();
+            bw.write("Zeile 3");
+            bw.newLine();
+            bw.write("Zeile 4");
+        }catch (IOException e){
+            e.printStackTrace();
+        }
     }
 }
