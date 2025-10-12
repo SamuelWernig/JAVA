@@ -1,4 +1,0 @@
-Hallo!
-Das ist die erste Datei zum Einlesen.
-Du liest sie mit Java.
-Happy coding!
