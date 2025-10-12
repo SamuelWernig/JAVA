@@ -9,6 +9,7 @@ public class Ueben1 {
 
         integerList.forEach( n -> System.out.println("Zahl: " + n));
         System.out.println();
+
         integerList.stream()
                 .filter(n -> n%2 == 0)
                 .forEach(System.out::println);
@@ -78,11 +79,11 @@ public class Ueben1 {
         System.out.println(quadrateMitFunction);
         //oder wieder für einzelne Zahlen(Bei Function: apply):
         System.out.println(quadratBerechnen.apply(3));
-
+        //accept
         System.out.println();
         Consumer<String> printString = s -> System.out.println("Hallo " + s);
         printString.accept("Samu");
-
+        //get
         System.out.println();
         Supplier<Integer> randomZahl = () -> (int) Math.round((Math.random() * 9) +1);
         System.out.println(randomZahl.get());
@@ -108,5 +109,17 @@ public class Ueben1 {
         System.out.println();
         Supplier<List<String>> nameSupplier = () -> List.of("Samu", "Elias", "Urschinger", "Kevin");
         System.out.println(nameSupplier.get());
+
+        //anonyme Klasse
+        System.out.println();
+        Runnable r = new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("Hallo");
+            }
+        };
+        r.run();
+
+
     }
 }
