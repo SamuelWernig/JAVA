@@ -3,7 +3,7 @@ package at.htlle.logger;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class LoggerTest {
+public class LoggerTest {
 
     @Test
     void testLoggerisSingelton() {
@@ -11,6 +11,7 @@ class LoggerTest {
         Logger logger2 = Logger.getInstance();
 
         Assertions.assertTrue(logger1 == logger2);
+
     }
 
 
