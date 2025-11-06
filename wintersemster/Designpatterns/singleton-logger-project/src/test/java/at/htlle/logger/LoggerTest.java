@@ -11,7 +11,7 @@ public class LoggerTest {
         Logger logger2 = Logger.getInstance();
 
         Assertions.assertTrue(logger1 == logger2);
-
+        Assertions.assertEquals(logger1.log("Test"), "[LOG] Test");
     }
 
 
