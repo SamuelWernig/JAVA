@@ -10,11 +10,15 @@ import static org.junit.Assert.*;
 public class TestEmailFactory {
 
     @Test
-    public void testEmailFactory() {
+    public void testCreateNotifierAndFormatter() {
         EmailFactory factory = new EmailFactory();
         Notifier notifier = factory.createNotifier();
         MessageFormatter formatter = factory.createFormatter();
 
+        assertNotNull(notifier);
+        assertNotNull(formatter);
+        assertTrue(notifier instanceof EmailNotifier);
+        assertTrue(formatter instanceof MessageFormatter);
 
 
 
