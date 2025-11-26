@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8506411d-28fd-420e-aa7e-93202cabeff8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../BuilderPatternUserAccount/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuilderPatternUserAccount/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuilderPatternUserAccount/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuilderPatternUserAccount/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuilderPatternUserAccount/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuilderPatternUserAccount/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuilderPatternUserAccount/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuilderPatternUserAccount/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuilderPatternUserAccount/src/main/java/at/htlle/sam/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuilderPatternUserAccount/src/main/java/at/htlle/sam/UserAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BuilderPatternUserAccount/src/test/java/at/htlle/sam/UserAccountTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/factory/EmailFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/factory/NotificationFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/factory/SmsFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/formatter/HtmlFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/formatter/MessageFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/formatter/PlainTextFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/notifier/EmailNotifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/notifier/Notifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/notifier/SmsNotifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/test/java/at/htlle/factory/TestEmailFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/test/java/at/htlle/factory/TestSmsFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/factory/EmailFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/factory/NotificationFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/factory/SmsFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/formatter/HtmlFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/formatter/MessageFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/formatter/PlainTextFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/notifier/EmailNotifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/notifier/Notifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/notifier/SmsNotifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/test-classes/at/htlle/factory/TestEmailFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/test-classes/at/htlle/factory/TestSmsFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/.idea/material_theme_project_new.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/src/main/java/at/htlle/logger/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/src/main/java/at/htlle/logger/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/src/test/java/at/htlle/logger/LoggerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/target/classes/at/htlle/logger/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/target/classes/at/htlle/logger/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/target/surefire-reports/TEST-at.htlle.logger.LoggerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/target/surefire-reports/at.htlle.logger.LoggerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../singleton-logger-project/target/test-classes/at/htlle/logger/LoggerTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SamuelWernig&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SamuelWernig/JAVA.git&quot;,
+    &quot;accountId&quot;: &quot;c88c6002-7ce5-4463-b955-eedcdc2aa448&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="35k7naVZCybxGKCsMPDtA9bln8n" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/samue/Desktop/JAVA_PROJECTS/JAVA/wintersemster/Designpatterns/adapter-pattern-printer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8506411d-28fd-420e-aa7e-93202cabeff8" name="Changes" comment="" />
+      <created>1763642384084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1763642384084</updated>
+      <workItem from="1763642385223" duration="851000" />
+      <workItem from="1764144992628" duration="146000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
