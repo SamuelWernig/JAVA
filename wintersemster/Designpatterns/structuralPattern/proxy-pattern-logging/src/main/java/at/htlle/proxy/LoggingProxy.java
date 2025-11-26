@@ -12,7 +12,7 @@ public class LoggingProxy implements Service {
     }
 
     @Override
-    public Object request() {
+    public String request() {
         System.out.println("[LOG] Zugriff auf Service");
         realService.request();
         return "[LOG] Zugriff auf Service";
