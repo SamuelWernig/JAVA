@@ -8,8 +8,8 @@ import at.htlle.legacy.FileWriterLegacy;
 
 public class Main {
     public static void main(String[] args) {
-        FileWriterLegacy fw = new FileWriterLegacy();
-        FileWriterAdapter fwAdapter = new FileWriterAdapter(fw);
+        FileWriterLegacy fwl = new FileWriterLegacy();
+        FileWriterAdapter fwAdapter = new FileWriterAdapter(fwl);
 
         // TODO: Erzeugen Sie eine Instanz von FileWriterLegacy
         // TODO: Erzeugen Sie eine Instanz von FileWriterAdapter
