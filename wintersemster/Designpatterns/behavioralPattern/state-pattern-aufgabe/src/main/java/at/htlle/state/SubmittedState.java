@@ -6,6 +6,7 @@ public class SubmittedState implements DocumentState {
     @Override
     public void submit(Document doc) {
         // TODO
+        System.out.println("Submitted: Dokument wurde bereits eingereicht.");
     }
 
     @Override
