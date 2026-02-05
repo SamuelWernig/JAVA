@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bac8e217-2668-4d2b-95f4-820e51006296" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../abstract-factory-notification/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/formatter/EmailFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abstract-factory-notification/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../abstract-factory-notification/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/factory/EmailFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/factory/EmailFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/factory/SMSFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/factory/SMSFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/formatter/HTMLFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/formatter/PlaintextFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/formatter/PlaintextFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/notifier/EmailNotifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/notifier/EmailNotifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/notifier/SMSNotifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../abstract-factory-notification/src/main/java/at/htlle/notifier/SMSNotifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/factory/EmailFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/factory/EmailFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/factory/SMSFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/factory/SMSFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/formatter/HTMLFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/formatter/PlaintextFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/formatter/PlaintextFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/notifier/EmailNotifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/notifier/EmailNotifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/notifier/SMSNotifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../abstract-factory-notification/target/classes/at/htlle/notifier/SMSNotifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htlle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htlle/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htlle/adapter/FileWriterAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htlle/adapter/FileWriterAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htlle/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/htlle/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htlle/adapter/FileWriterAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/htlle/adapter/FileWriterAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../behavioralPattern/state-pattern-aufgabe/target/classes/at/htlle/state/SubmittedState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../behavioralPattern/state-pattern-aufgabe/target/classes/at/htlle/state/SubmittedState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../creationalPattern/BuilderPatternUserAccount/src/main/java/at/htlle/sam/sandwich/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../creationalPattern/BuilderPatternUserAccount/src/main/java/at/htlle/sam/sandwich/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../creationalPattern/BuilderPatternUserAccount/src/main/java/at/htlle/sam/sandwich/Sandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../creationalPattern/BuilderPatternUserAccount/src/main/java/at/htlle/sam/sandwich/Sandwich.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SamuelWernig&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SamuelWernig/JAVA.git&quot;,
+    &quot;accountId&quot;: &quot;c88c6002-7ce5-4463-b955-eedcdc2aa448&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="36y9tDjNoZbwNbsjRVO49S76cR1" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/samue/Desktop/JAVA_PROJECTS/JAVA/wintersemster/Designpatterns/Uebungen/adapter-pattern-printer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bac8e217-2668-4d2b-95f4-820e51006296" name="Changes" comment="" />
+      <created>1765968156160</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765968156160</updated>
+      <workItem from="1770199490451" duration="680000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

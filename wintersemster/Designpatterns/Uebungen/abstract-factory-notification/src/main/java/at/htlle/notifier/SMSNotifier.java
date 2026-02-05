@@ -1,8 +1,8 @@
 package at.htlle.notifier;
 
-public class SMSNotifier implements Notifier {
+public class SmsNotifier implements Notifier {
     @Override
     public void send(String recipient, String message) {
-        System.out.println("Sending message to " + recipient + ": " + message);
+        System.out.println("To: " + recipient + " : " + message);
     }
 }

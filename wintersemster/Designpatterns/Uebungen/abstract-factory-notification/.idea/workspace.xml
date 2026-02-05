@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c5f55b3f-883d-4b1e-9493-37ec4b62df93" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htlle/formatter/EmailFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htlle/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htlle/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htlle/factory/EmailFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htlle/factory/EmailFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htlle/factory/SMSFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htlle/formatter/HTMLFormatter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htlle/formatter/PlaintextFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htlle/formatter/PlaintextFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htlle/notifier/EmailNotifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htlle/notifier/EmailNotifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htlle/notifier/SMSNotifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htlle/notifier/SMSNotifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htlle/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htlle/factory/EmailFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htlle/factory/NotificationFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htlle/factory/SMSFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htlle/formatter/HTMLFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htlle/formatter/MessageFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htlle/formatter/PlaintextFormatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htlle/notifier/EmailNotifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htlle/notifier/Notifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/htlle/notifier/SMSNotifier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../behavioralPattern/state-pattern-aufgabe/target/classes/at/htlle/state/SubmittedState.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../behavioralPattern/state-pattern-aufgabe/target/classes/at/htlle/state/SubmittedState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../creationalPattern/BuilderPatternUserAccount/src/main/java/at/htlle/sam/sandwich/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../creationalPattern/BuilderPatternUserAccount/src/main/java/at/htlle/sam/sandwich/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../creationalPattern/BuilderPatternUserAccount/src/main/java/at/htlle/sam/sandwich/Sandwich.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../creationalPattern/BuilderPatternUserAccount/src/main/java/at/htlle/sam/sandwich/Sandwich.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SamuelWernig&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SamuelWernig/JAVA.git&quot;,
+    &quot;accountId&quot;: &quot;c88c6002-7ce5-4463-b955-eedcdc2aa448&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="36y76bVX1ir1Fm9dQbGeZgc7Yjj" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/samue/Desktop/JAVA_PROJECTS/JAVA/wintersemster/Designpatterns/Uebungen/abstract-factory-notification",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5f55b3f-883d-4b1e-9493-37ec4b62df93" name="Changes" comment="" />
+      <created>1765966782181</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765966782181</updated>
+      <workItem from="1770198174562" duration="89000" />
+      <workItem from="1770198310204" duration="1174000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
