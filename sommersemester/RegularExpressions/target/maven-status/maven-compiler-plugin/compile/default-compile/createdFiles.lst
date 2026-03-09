@@ -1,0 +1,4 @@
+at\htlle\regex\DateReplacer.class
+at\htlle\regex\EmailValidator.class
+at\htlle\regex\PhoneNumberExtractor.class
+at\htlle\regex\PasswordChecker.class

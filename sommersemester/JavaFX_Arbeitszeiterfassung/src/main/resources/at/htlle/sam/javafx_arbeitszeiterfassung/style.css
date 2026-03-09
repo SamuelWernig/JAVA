@@ -1,0 +1,62 @@
+/* Base */
+.root {
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+    -fx-font-size: 14px;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #2c7be5;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10 14;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #1a5edb;
+}
+
+.button:pressed {
+    -fx-background-color: #154fb6;
+}
+
+/* Text inputs */
+.text-field, .text-area, .date-picker {
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #cfd6e4;
+    -fx-border-width: 1;
+}
+
+.text-area {
+    -fx-padding: 8;
+}
+
+/* Table styling */
+.table-view {
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #cfd6e4;
+    -fx-border-width: 1;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #f1f4f9;
+    -fx-background-radius: 10 10 0 0;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 32px;
+    -fx-border-color: transparent transparent #d9e0ee transparent;
+}
+
+.table-view .column-header .label {
+    -fx-font-weight: bold;
+}
+
+/* Optional: nicer row height */
+.table-row-cell {
+    -fx-cell-size: 28px;
+}
