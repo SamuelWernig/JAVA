@@ -40,10 +40,12 @@ public class CsvService {
 
     private static String escape(String text) {
         if (text == null) return "";
-        if (text.contains(",") || text.contains("\"")) {
-            text = text.replace("\"", "\"\"");
+
+        // Nur Kommas schützen
+        if (text.contains(",")) {
             return "\"" + text + "\"";
         }
+
         return text;
     }
 }
