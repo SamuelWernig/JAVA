@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="at.htlle.sam.habittracker.controller.MainController">
+
+    <top>
+        <HBox spacing="10" style="-fx-padding: 10;">
+            <Button text="Habit hinzufügen" onAction="#handleAddHabit"/>
+            <Button text="Habit löschen" onAction="#handleDeleteHabit"/>
+            <Button text="Heute erledigt" onAction="#handleMarkDone"/>
+            <Button text="CSV laden" onAction="#handleLoadCsv"/>
+            <Button text="CSV speichern" onAction="#handleSaveCsv"/>
+        </HBox>
+    </top>
+
+    <center>
+        <TableView fx:id="habitTable">
+            <columns>
+                <TableColumn fx:id="nameColumn" text="Name"/>
+                <TableColumn fx:id="categoryColumn" text="Kategorie"/>
+                <TableColumn fx:id="targetColumn" text="Ziel/Woche"/>
+            </columns>
+        </TableView>
+    </center>
+
+    <bottom>
+        <VBox spacing="8" style="-fx-padding: 10;">
+            <Label fx:id="streakLabel" text="Streak: 0"/>
+            <ProgressBar fx:id="weeklyProgressBar" progress="0.0"/>
+        </VBox>
+    </bottom>
+
+</BorderPane>

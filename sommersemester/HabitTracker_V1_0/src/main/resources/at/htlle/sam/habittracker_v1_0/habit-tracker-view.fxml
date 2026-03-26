@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="at.htlle.sam.habittracker_v1_0.HabitTrackerController"
+      spacing="10">
+
+    <padding>
+        <Insets top="15" right="15" bottom="15" left="15"/>
+    </padding>
+
+    <Label text="Habit Tracker" style="-fx-font-size: 22px; -fx-font-weight: bold;"/>
+
+    <HBox spacing="10">
+        <TextField fx:id="nameField" promptText="Habit"/>
+        <TextField fx:id="categoryField" promptText="Kategorie"/>
+        <Button text="Add" onAction="#handleAddHabit"/>
+        <Button text="Delete" onAction="#handleRemoveHabit"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <Label text="Datum"/>
+        <DatePicker fx:id="datePicker"/>
+        <Button text="Heute" onAction="#handleToday"/>
+    </HBox>
+
+    <TableView fx:id="tableView" editable="true">
+        <columns>
+            <TableColumn fx:id="nameCol" text="Name" prefWidth="150"/>
+            <TableColumn fx:id="categoryCol" text="Kategorie" prefWidth="150"/>
+            <TableColumn fx:id="doneCol" text="Done" prefWidth="80"/>
+            <TableColumn fx:id="lastDoneCol" text="Zuletzt erledigt" prefWidth="140"/>
+            <TableColumn fx:id="streakCol" text="Streak" prefWidth="80"/>
+            <TableColumn fx:id="totalCol" text="Gesamt" prefWidth="80"/>
+        </columns>
+    </TableView>
+
+</VBox>

@@ -1,0 +1,117 @@
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #f4f6f8;
+}
+
+.label-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f2937;
+}
+
+.label-subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #6b7280;
+}
+
+.text-field,
+.date-picker,
+.button,
+.table-view {
+    -fx-font-size: 14px;
+}
+
+.text-field,
+.date-picker {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #d1d5db;
+    -fx-padding: 8 10 8 10;
+}
+
+.text-field:focused,
+.date-picker:focused {
+    -fx-border-color: #2563eb;
+    -fx-background-color: white;
+}
+
+.button {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-padding: 8 14 8 14;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.button:pressed {
+    -fx-background-color: #1e40af;
+}
+
+.button-danger {
+    -fx-background-color: #dc2626;
+}
+
+.button-danger:hover {
+    -fx-background-color: #b91c1c;
+}
+
+.button-secondary {
+    -fx-background-color: #6b7280;
+}
+
+.button-secondary:hover {
+    -fx-background-color: #4b5563;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #d1d5db;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-padding: 4;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #e5e7eb;
+    -fx-background-radius: 12 12 0 0;
+}
+
+.table-view .column-header,
+.table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 38;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #111827;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #f1f5f9 transparent;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #dbeafe;
+}
+
+.table-cell {
+    -fx-padding: 8;
+    -fx-text-fill: #111827;
+}
+
+.check-box {
+    -fx-cursor: hand;
+}
+
+.hbox,
+.vbox {
+    -fx-spacing: 10;
+}
