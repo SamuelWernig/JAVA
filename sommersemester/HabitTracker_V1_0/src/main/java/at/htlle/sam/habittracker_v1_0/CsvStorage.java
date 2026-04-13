@@ -74,13 +74,13 @@ public class CsvStorage {
 
             for (Habit habit : habits) {
                 if (habit.getDoneDates().isEmpty()) {
-                    writer.write(toCsv(habit.getName()) + "," + toCsv(habit.getCategory()) + ",,false");
+                    writer.write(toCsv(habit.getName()) + "," + toCsv(habit.getCategory()) + ",\"\",false");
                     writer.newLine();
                 } else {
                     for (LocalDate date : habit.getDoneDates()) {
                         writer.write(toCsv(habit.getName()) + "," +
                                 toCsv(habit.getCategory()) + "," +
-                                date + ",true");
+                                toCsv(date.toString()) + ",true");
                         writer.newLine();
                     }
                 }
@@ -92,7 +92,7 @@ public class CsvStorage {
         if (value == null) {
             return "\"\"";
         }
-        return "\"" + value.replace("\"", "\"\"") + "\"";
+        return "\"" + value + "\"";
     }
 
     private List<String> parseCsvLine(String line) {

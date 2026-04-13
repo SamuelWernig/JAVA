@@ -16,24 +16,68 @@
 
 .text-field,
 .date-picker,
+.combo-box,
 .button,
 .table-view {
     -fx-font-size: 14px;
 }
 
 .text-field,
-.date-picker {
+.date-picker,
+.combo-box {
     -fx-background-color: white;
     -fx-background-radius: 10;
     -fx-border-radius: 10;
     -fx-border-color: #d1d5db;
+    -fx-border-width: 1;
+}
+
+.text-field,
+.combo-box {
     -fx-padding: 8 10 8 10;
 }
 
+.date-picker {
+    -fx-padding: 0;
+}
+
 .text-field:focused,
-.date-picker:focused {
+.date-picker:focused,
+.combo-box:focused {
     -fx-border-color: #2563eb;
     -fx-background-color: white;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #111827;
+    -fx-padding: 6 10 6 10;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0 10 10 0;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #4b5563;
+}
+
+.date-picker .text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-padding: 8 10 8 10;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0 10 10 0;
+    -fx-border-color: transparent transparent transparent #d1d5db;
+    -fx-border-width: 1;
+}
+
+.date-picker .arrow {
+    -fx-background-color: #4b5563;
 }
 
 .button {
@@ -109,6 +153,28 @@
 
 .check-box {
     -fx-cursor: hand;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: white;
+    -fx-border-color: #d1d5db;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+.combo-box-popup .list-cell {
+    -fx-background-color: white;
+    -fx-text-fill: #111827;
+    -fx-padding: 8 10 8 10;
+}
+
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #dbeafe;
+}
+
+.combo-box-popup .list-cell:filled:selected {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
 }
 
 .hbox,
