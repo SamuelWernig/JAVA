@@ -1,4 +1,0 @@
-2025-10-06 11:50:23.401 INFO  at.htlle.sam.DebuggerUebung - Start des Programms
-2025-10-06 11:50:23.402 WARN  at.htlle.sam.DebuggerUebung - Achtung, Datei nicht gefunden
-2025-10-06 11:50:23.402 ERROR at.htlle.sam.DebuggerUebung - Fehler beim Lesen der Datei
-2025-10-06 11:50:23.402 INFO  at.htlle.sam.DebuggerUebung - Die Datei personen.csv wurde erfolgreich eingelesen. (42 Zeilen)
