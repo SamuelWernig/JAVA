@@ -6,8 +6,14 @@ package at.htlle.threading.start;
 // Use either a class extending Thread or a Runnable passed to a Thread.
 // Students should implement thread creation and starting logic.
 
-public class HelloThread {
+public class HelloThread{
     public static void main(String[] args) {
         // TODO: Implement thread creation and start here
+        for (int i = 1; i <= 5; i++) {
+            Thread t = new Thread(() -> {
+                System.out.println("Hello aus: "+ Thread.currentThread().getName());
+            });
+            t.start();
+        }
     }
 }
