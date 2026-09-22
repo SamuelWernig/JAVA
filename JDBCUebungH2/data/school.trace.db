@@ -1,0 +1,8 @@
+2026-09-22 14:44:31.239011+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabelle "STUDENT" nicht gefunden (diese Datenbank ist leer)
+Table "STUDENT" not found (this database is empty); SQL statement:
+SELECT id, firstname, lastname FROM student [42104-250]
+2026-09-22 14:51:11.553374+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax Fehler in SQL Befehl "MERGE INTO student (id, firstname, lastname, age) [*]INSERT INTO student VALUES (1, 'Anna', 'Berger', 17)"; erwartet "KEY (, VALUES, WITH, (, SELECT, TABLE, VALUES"
+Syntax error in SQL statement "MERGE INTO student (id, firstname, lastname, age) [*]INSERT INTO student VALUES (1, 'Anna', 'Berger', 17)"; expected "KEY (, VALUES, WITH, (, SELECT, TABLE, VALUES"; SQL statement:
+MERGE INTO student (id, firstname, lastname, age) INSERT INTO student VALUES (1, 'Anna', 'Berger', 17) [42001-250]
