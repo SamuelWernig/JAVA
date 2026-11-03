@@ -10,7 +10,7 @@ public class setup {
         String user = "sa";
         String password = "";
 
-        try (Connection con = DriverManager.getConnection(url, user, password);
+        try (Connection con = DriverManager.getConnection(url, user password);
              Statement stmt = con.createStatement()) {
 
             System.out.println("Connected to database successfully");
