@@ -1,14 +1,14 @@
 package at.htlle.sam;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.sql.*;
 import java.util.Scanner;
 
-/*
- * Mini-Frage Teil B:
- Bei "... WHERE genre = '" + genre + "'" wird die Eingabe direkt ins SQL eingebaut.
- Dadurch ist SQL-Injection möglich. Mit ? wird das Genre nur als Wert behandelt.
- */
 public class Main {
+
+    private static final Logger logger = LoggerFactory.getLogger(Main.class);
 
     private static final String URL = "jdbc:h2:./data/movies";
     private static final String USER = "sa";
@@ -17,6 +17,7 @@ public class Main {
     private static final Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
+        logger.info("Medienverwaltung gestartet");
         createTable();
 
         int choice;
@@ -30,6 +31,7 @@ public class Main {
             System.out.println("6 - Film löschen");
             System.out.println("7 - Film suchen");
             System.out.println("8 - Statistik");
+            System.out.println("9 - Fehlertest");
             System.out.println("0 - Programm beenden");
             choice = readInt("Auswahl: ");
 
@@ -63,20 +65,24 @@ public class Main {
                 case 8:
                     printStatistics();
                     break;
+                case 9:
+                    runErrorTests();
+                    break;
                 case 0:
-                    System.out.println("Programm beendet.");
+                    logger.info("Programm beendet");
                     break;
                 default:
-                    System.out.println("Ungültige Auswahl.");
+                    logger.warn("Ungültige Auswahl: {}", choice);
             }
         } while (choice != 0);
     }
 
     private static Connection getConnection() throws SQLException {
-        return DriverManager.getConnection(URL, USER, PASSWORD);
+        Connection connection = DriverManager.getConnection(URL, USER, PASSWORD);
+        logger.debug("Verbindung geöffnet");
+        return connection;
     }
 
-    // Tabelle anlegen und Beispieldaten nur einfügen, wenn die Tabelle leer ist
     private static void createTable() {
         String createSql =
                 "CREATE TABLE IF NOT EXISTS movie ("
@@ -89,11 +95,14 @@ public class Main {
         try (Connection connection = getConnection();
              Statement statement = connection.createStatement()) {
 
+            logger.info("Datenbankverbindung hergestellt");
             statement.executeUpdate(createSql);
+            logger.debug("Tabelle movie geprüft");
 
             try (ResultSet resultSet = statement.executeQuery("SELECT COUNT(*) FROM movie")) {
                 resultSet.next();
                 if (resultSet.getInt(1) == 0) {
+                    logger.info("Tabelle ist leer, Beispieldaten werden eingefügt");
                     insertMovie("Interstellar", "Science Fiction", 2014, 8.7);
                     insertMovie("The Dark Knight", "Action", 2008, 9.0);
                     insertMovie("Parasite", "Drama", 2019, 8.5);
@@ -103,11 +112,10 @@ public class Main {
             }
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            handleSQLException(e);
         }
     }
 
-    // Teil A
     private static void printAllMovies() {
         String sql = "SELECT * FROM movie ORDER BY id";
 
@@ -117,11 +125,10 @@ public class Main {
             printResult(statement);
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            handleSQLException(e);
         }
     }
 
-    // Teil B
     private static void printMoviesByGenre(String genre) {
         String sql = "SELECT * FROM movie WHERE genre = ?";
 
@@ -129,14 +136,14 @@ public class Main {
              PreparedStatement statement = connection.prepareStatement(sql)) {
 
             statement.setString(1, genre);
+            logger.debug("Suche nach Genre: {}", genre);
             printResult(statement);
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            handleSQLException(e);
         }
     }
 
-    // Teil C
     private static void printMoviesWithMinimumRating(double rating) {
         String sql = "SELECT * FROM movie WHERE rating >= ? ORDER BY rating DESC";
 
@@ -144,14 +151,14 @@ public class Main {
              PreparedStatement statement = connection.prepareStatement(sql)) {
 
             statement.setDouble(1, rating);
+            logger.debug("Suche nach Mindestbewertung: {}", rating);
             printResult(statement);
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            handleSQLException(e);
         }
     }
 
-    // Teil D
     private static void insertMovie(String title, String genre, int releaseYear, double rating) {
         String sql = "INSERT INTO movie (title, genre, release_year, rating) VALUES (?, ?, ?, ?)";
 
@@ -164,17 +171,16 @@ public class Main {
             statement.setDouble(4, rating);
 
             if (statement.executeUpdate() == 1) {
-                System.out.println("Film \"" + title + "\" angelegt.");
+                logger.info("Film \"{}\" erfolgreich angelegt", title);
             } else {
-                System.out.println("Film konnte nicht angelegt werden.");
+                logger.warn("Film \"{}\" konnte nicht angelegt werden", title);
             }
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            handleSQLException(e);
         }
     }
 
-    // Teil E
     private static void updateRating(int id, double newRating) {
         String sql = "UPDATE movie SET rating = ? WHERE id = ?";
 
@@ -185,17 +191,16 @@ public class Main {
             statement.setInt(2, id);
 
             if (statement.executeUpdate() > 0) {
-                System.out.println("Bewertung aktualisiert.");
+                logger.info("Bewertung von Film {} auf {} geändert", id, newRating);
             } else {
-                System.out.println("Kein Film mit dieser ID gefunden.");
+                logger.warn("Film mit ID {} existiert nicht", id);
             }
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            handleSQLException(e);
         }
     }
 
-    // Teil F
     private static void deleteMovie(int id) {
         String sql = "DELETE FROM movie WHERE id = ?";
 
@@ -205,17 +210,16 @@ public class Main {
             statement.setInt(1, id);
 
             if (statement.executeUpdate() > 0) {
-                System.out.println("Film gelöscht.");
+                logger.info("Film mit ID {} gelöscht", id);
             } else {
-                System.out.println("Kein Film mit dieser ID gefunden.");
+                logger.warn("Film mit ID {} existiert nicht", id);
             }
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            handleSQLException(e);
         }
     }
 
-    // Teil G
     private static void searchMovies(String searchText) {
         String sql = "SELECT * FROM movie WHERE LOWER(title) LIKE ?";
 
@@ -223,14 +227,14 @@ public class Main {
              PreparedStatement statement = connection.prepareStatement(sql)) {
 
             statement.setString(1, "%" + searchText.toLowerCase() + "%");
+            logger.debug("Suche nach Titel: {}", searchText);
             printResult(statement);
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            handleSQLException(e);
         }
     }
 
-    // Zusatzaufgabe
     private static void printStatistics() {
         String sql = "SELECT COUNT(*) AS anzahl, AVG(rating) AS durchschnitt, "
                 + "(SELECT title FROM movie ORDER BY rating DESC LIMIT 1) AS bester "
@@ -247,11 +251,65 @@ public class Main {
             }
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            handleSQLException(e);
         }
     }
 
-    // gemeinsame Ausgabe für alle SELECT-Methoden
+    private static void runErrorTests() {
+        String[] sqls = {
+                "SELECT * FROM filme",
+                "SELECT name FROM movie",
+                "SELEC * FROM movie",
+                "INSERT INTO movie (title) VALUES (NULL)"
+        };
+
+        for (String sql : sqls) {
+            logger.info("Fehlertest: {}", sql);
+
+            try (Connection connection = getConnection();
+                 Statement statement = connection.createStatement()) {
+
+                statement.execute(sql);
+
+            } catch (SQLException e) {
+                System.out.println("Message:   " + e.getMessage());
+                System.out.println("SQLState:  " + e.getSQLState());
+                System.out.println("ErrorCode: " + e.getErrorCode());
+                handleSQLException(e);
+            }
+        }
+    }
+
+    private static void handleSQLException(SQLException e) {
+        String sqlState = e.getSQLState();
+        String sqlClass = "";
+
+        if (sqlState != null && sqlState.length() >= 2) {
+            sqlClass = sqlState.substring(0, 2);
+        }
+
+        switch (sqlClass) {
+            case "08":
+                logger.error("Verbindungsfehler: {}", e.getMessage());
+                break;
+            case "23":
+                logger.error("Integritätsverletzung: {}", e.getMessage());
+                break;
+            case "42":
+                logger.error("SQL-/Objektfehler: {}", e.getMessage());
+                break;
+            default:
+                logger.error("Allgemeiner Datenbankfehler: {}", e.getMessage());
+        }
+
+        logger.error(
+                "Database error: SQLState={}, ErrorCode={}",
+                e.getSQLState(),
+                e.getErrorCode(),
+                e
+        );
+    }
+
     private static void printResult(PreparedStatement statement) throws SQLException {
         try (ResultSet resultSet = statement.executeQuery()) {
             boolean found = false;
@@ -266,7 +324,7 @@ public class Main {
                 );
             }
             if (!found) {
-                System.out.println("Keine Filme gefunden.");
+                logger.warn("Keine Filme gefunden");
             }
         }
     }
